@@ -14,3 +14,4 @@ config/local.py
 deploy/*.service
 .scannerwork
 venv
+media

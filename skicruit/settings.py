@@ -39,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
-    # 'recruiters',
+    'recruiter',
     'candidate',
     'crispy_forms',
+    'crispy_bootstrap4',
     'django_countries',
     
     # 'django_cleanup.apps.CleanupConfig',###Search###
@@ -93,6 +94,7 @@ TEMPLATES = [
 ]
 ########Search about this portion later on what It does################33
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 
 LOGIN_URL = 'login'
