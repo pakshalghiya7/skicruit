@@ -1,0 +1,16 @@
+credentials.txt
+*.sqlite3
+__pycache__
+celerybeat-schedule
+celerybeat.pid
+refactored
+.vscode
+deploy/env/local.env
+deploy/env/staging.env
+deploy/env/prod.env
+env-manage.py
+config/local.py
+.env
+deploy/*.service
+.scannerwork
+venv
